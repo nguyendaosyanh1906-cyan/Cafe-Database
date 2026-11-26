@@ -1,0 +1,226 @@
+{
+  "revision": "database-checklist-2026-11-21",
+  "source": "Cafe_Management-main.zip, followed by requested checklist corrections",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "2df01f5600fcb72331342524c539d96287b6fd36dfdd5780a5f541cb41b22f38",
+      "change": "added"
+    },
+    {
+      "path": "CHECKLIST_COMPLETION.html",
+      "sha256": "838b7d5859a1940d9b88a1bcf9f9757351192989399237fa6fdb0f5d39beb2fe",
+      "change": "added"
+    },
+    {
+      "path": "database/README.md",
+      "sha256": "ad01ee4754adc96ad4316287c63aa62d720678bac4c9a18d4dca853228ba3c4e",
+      "change": "modified"
+    },
+    {
+      "path": "database/schema.sql",
+      "sha256": "6b528ea9704d15ae5c896a5c6e5fa1ef92dd0138fe3dfca0017eb0d8b5b41a58",
+      "change": "modified"
+    },
+    {
+      "path": "database/seed.sql",
+      "sha256": "8410ae82a9a8194e4b2d27cde605a7b0a62eeb3b713defb0bbaff6f167b04669",
+      "change": "modified"
+    },
+    {
+      "path": "Database-to-Controller-Integration-Reference.html",
+      "sha256": "c927bca0745ea995a9bf681e4be89dcfe7aa53cfb92ef5fb58996e6d9c27b71d",
+      "change": "modified"
+    },
+    {
+      "path": "pom.xml",
+      "sha256": "37a08df579f8ab3189080eec976973174110dd8c5e566cdc0c3045d6aece1672",
+      "change": "modified"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dfc8f80561034bc49945468415f2c92ee704b6ba094a1dc1140e54181f8088f9",
+      "change": "added"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/CategoryDAO.java",
+      "sha256": "39c48575028a9e0c892de990a59af66ceba791aaed3a9440dcadef49c5262a5a",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/CustomerDAO.java",
+      "sha256": "5d63cf3619d44a61edc7997e5b9e816c5b3fb38155dfffd39235ff554f52c40b",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/DataAccessException.java",
+      "sha256": "29e270b5a0215068c7067cb1840172d396266fcd44dfa8c2a0390a55c36f680a",
+      "change": "added"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/CategoryDAOImpl.java",
+      "sha256": "51441160479832c3bd9082cd8113227a776779b63174ae4a1a0df063952db65f",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/CustomerDAOImpl.java",
+      "sha256": "b7b5148bd913101832659c3e31d797f1941486be4ecb7dc676babb071b9579be",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/JdbcDao.java",
+      "sha256": "ffd9d68299672195644fdd35684b34231e950c9644e08701f00efff13e1120bd",
+      "change": "added"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/OrderDAOImpl.java",
+      "sha256": "b9011fcc0f7df6a80b20ad4864ecaa3701db990b5f6c9266e4d6f8f74da9ecfd",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/OrderDetailDAOImpl.java",
+      "sha256": "258e39053f011ece3758a6ab85f06b47e6d9369e66d9d21768dbee9ccee814c8",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/ProductDAOImpl.java",
+      "sha256": "f97f7ed6b2cf012068f7a60e80a4314b6a35e32e51990722c6abf49d599fbe96",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/ReportDAOImpl.java",
+      "sha256": "7856fa42fb227661fa2f71c74c9aeae8e6320828f655ca4db69692ace208cafb",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/ToppingDAOImpl.java",
+      "sha256": "90891f58661d9babcf5c6e8e3f891acba927a8e369d87e4060694cc3978b826c",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/impl/UserDAOImpl.java",
+      "sha256": "dc41c1a3671757b254356f9856e8af92c27e1bbe8b86e0b9797dc5dc005ce87e",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/OrderDAO.java",
+      "sha256": "0e418a7b8c2762fdb0aaf3e5390fa494f2b9702491f60b024ac0c34af4a3f031",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/OrderDetailDAO.java",
+      "sha256": "9cd3413f59184624e6a3acfe751e9fda8302c3eebf1a7bf92ffdd642c0b21c1b",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/ProductDAO.java",
+      "sha256": "a4a234d5e6afa0425a8a07163dd14df9d182fddb3f71122261c8a7c957133b15",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/ReportDAO.java",
+      "sha256": "f5ab0919545632e5ca82a336d8577ec9666eca2c9effa326bbe28b8fea33f69e",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/ToppingDAO.java",
+      "sha256": "671519c847b29e66397db8f5a40570987e91cdf699c155bf5b03e0afa5520864",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/TransactionManager.java",
+      "sha256": "87f975edc096338334278b97b226294d44832aa4e16ff816c2c622b88d5ecc7d",
+      "change": "added"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/dao/UserDAO.java",
+      "sha256": "fc2861197eac8c91678f6d9f8baa45dbdd95403ec5000f40968e4aa1517b27f4",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/DBConnection.java",
+      "sha256": "0187456ef4111d54eafded573511e63d8d5a03c5ecd42949e9ac95a006dba96a",
+      "change": "modified"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/AdminRole.java",
+      "sha256": "dffbe7c689af3b93cd5401b6b651c9288ea572d359c6327b301f80bb755cf21a",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/CartItem.java",
+      "sha256": "8e12736da6e228b3460997f229bcfa9b93f617a408692389ef6fa70eb5203276",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Category.java",
+      "sha256": "3be5339b83ece299c795697985d75c6df6dd9574df7edb258331ac59d1a4bb66",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Customer.java",
+      "sha256": "e67e37bb0c7ea17b7e5d6a918f54a233955213a9c6a5574b4b784bb97b4115cf",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Order.java",
+      "sha256": "72ef654072295b9e399dcc78726fd58a4d9b6b2211aef51a3d0313beb3c1f4ff",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/OrderDetail.java",
+      "sha256": "a139ac49f184b7fe49f01b044341536cd0b6d954064a26415940e1b1e9dfb1d8",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/OrderDetailTopping.java",
+      "sha256": "ab0b6f8fcdfbfdcddf58512342a5528bee35746115b10c2a98eefe6f011837d0",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/OrderHistoryDTO.java",
+      "sha256": "6e504f1f03454f40955e37cf63bb521921ebffc760053d2986c35c7c109d0a95",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Product.java",
+      "sha256": "5fad8fdf9c857d9e1e16f3c97eb32c1bd6dec4cd3a36c0b3a3ad30553648fd97",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Role.java",
+      "sha256": "9560662183dfcf011e07170a09ee4a801240864433201458f9d9defc0b4108e0",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/StaffRole.java",
+      "sha256": "da1c8b588e8c1397e546233e554843d5a55f36c53a4e964ca4251d3789a5cc49",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/Topping.java",
+      "sha256": "bc22086159b62e22fda5bbf3d5c15e0d7fbb36cfa85355e24130a5f207114f8b",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/model/User.java",
+      "sha256": "57dc1a4d44f4956a32c49e877f50dc244e51d3cdfa52bc931b325830d796ab9b",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/main/java/com/cafe/cafeshopmanagement/utils/UserSession.java",
+      "sha256": "5d3d302362001012be2a7394ecae9e03613b70adc5166bcc98828b34c21b1c29",
+      "change": "unchanged"
+    },
+    {
+      "path": "src/test/java/com/cafe/cafeshopmanagement/dao/DatabaseIT.java",
+      "sha256": "dc2809b3b151c5dd26bc83f1aa3a0fbf8c50b0e8a8eb04641a21aa0592b0996c",
+      "change": "added"
+    },
+    {
+      "path": "TEST_RESULTS.json",
+      "sha256": "850f20386884338f10129589a01115c031d5e2c0c88808ddcfc68a7db86412ef",
+      "change": "added"
+    }
+  ]
+}
